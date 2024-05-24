@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Ivancho from '../components/vue/Ivancho.vue';
+---
+
+<Layout title="Welcome to Astro.">
+ <div class="w-full">
+	<Ivancho client:load />
+ </div>
+</Layout>
